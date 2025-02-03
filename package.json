@@ -1,5 +1,25 @@
 {
   "dependencies": {
-    "express": "^4.21.2"
-  }
+    "express": "^4.21.2",
+    "nodemon": "^3.1.9"
+  },
+  "name": "third_learning_dep",
+  "version": "1.0.0",
+  "description": "��#\u0000 \u0000M\u0000y\u0000 \u0000P\u0000r\u0000o\u0000j\u0000e\u0000c\u0000t\u0000\r\u0000 \u0000",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AvinashGuleria0/Deploying_API_intro.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AvinashGuleria0/Deploying_API_intro/issues"
+  },
+  "homepage": "https://github.com/AvinashGuleria0/Deploying_API_intro#readme"
 }
