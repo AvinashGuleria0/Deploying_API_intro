@@ -1,0 +1,11 @@
+services:
+  - type: web
+    name: my-app
+    env: node
+    region: oregon  # or other supported region
+    plan: free
+    buildCommand: npm install
+    startCommand: node server.js
+    envVars:
+      - key: NODE_VERSION
+        value: 18
